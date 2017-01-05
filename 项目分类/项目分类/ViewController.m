@@ -24,6 +24,13 @@
     
     self.view.backgroundColor = HM_ColorFromRGB(0xff00ff);
     self.view.backgroundColor = HM_white_color;
+    
+    UIView *myView = [[UIView alloc] init];
+    myView.frame = CGRectMake(100, 100, 100, 100);
+    myView.backgroundColor = HM_yellow_color;
+    [self.view addSubview:myView];
+    
+    NSLog(@"%@",NSStringFromCGSize(HM_SIZE(myView)));
 }
 
 

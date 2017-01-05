@@ -77,6 +77,7 @@
 #define HM_Y(v)                    (v).frame.origin.y
 #define HM_WIDTH(v)                (v).frame.size.width
 #define HM_HEIGHT(v)               (v).frame.size.height
+#define HM_SIZE(v)                 (v).frame.size
 
 #define HM_MinX(v)                 CGRectGetMinX((v).frame)
 #define HM_MinY(v)                 CGRectGetMinY((v).frame)
@@ -86,6 +87,7 @@
 
 #define HM_MaxX(v)                 CGRectGetMaxX((v).frame)
 #define HM_MaxY(v)                 CGRectGetMaxY((v).frame)
+
 
 #define HM_H30 [UIFont systemFontOfSize:30]
 #define HM_H29 [UIFont systemFontOfSize:29]

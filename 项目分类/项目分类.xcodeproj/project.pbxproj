@@ -20,6 +20,9 @@
 		AC1862E01E1C9EEC005D2F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1862DF1E1C9EEC005D2F00 /* AppDelegate.m */; };
 		AC1862E31E1C9F1C005D2F00 /* HMStartApp.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1862E21E1C9F1C005D2F00 /* HMStartApp.m */; };
 		AC1862E61E1CA13D005D2F00 /* HMThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1862E51E1CA13D005D2F00 /* HMThirdPartService.m */; };
+		AC4606091E1E4952005F663E /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4606081E1E4952005F663E /* HMNavigationController.m */; };
+		AC46060D1E1E4A06005F663E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46060C1E1E4A06005F663E /* UIBarButtonItem+Extension.m */; };
+		AC4606101E1E4A84005F663E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC46060F1E1E4A84005F663E /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,12 @@
 		AC1862E41E1CA13D005D2F00 /* HMThirdPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMThirdPartService.h; sourceTree = "<group>"; };
 		AC1862E51E1CA13D005D2F00 /* HMThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMThirdPartService.m; sourceTree = "<group>"; };
 		AC1862F11E1CA386005D2F00 /* HMMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMMacros.h; sourceTree = "<group>"; };
+		AC4606071E1E4952005F663E /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		AC4606081E1E4952005F663E /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		AC46060B1E1E4A06005F663E /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		AC46060C1E1E4A06005F663E /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		AC46060E1E1E4A84005F663E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AC46060F1E1E4A84005F663E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		B555CAB77C7181E923A0DD46 /* Pods-项目分类UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目分类UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-项目分类UITests/Pods-项目分类UITests.release.xcconfig"; sourceTree = "<group>"; };
 		ECDD7D6D71B78C663360418A /* Pods-项目分类UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目分类UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-项目分类UITests/Pods-项目分类UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFF2C6BF20BA6F6B419B7237 /* Pods-项目分类Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目分类Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-项目分类Tests/Pods-项目分类Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +212,8 @@
 		AC1862E91E1CA2D4005D2F00 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AC4606071E1E4952005F663E /* HMNavigationController.h */,
+				AC4606081E1E4952005F663E /* HMNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -210,6 +221,10 @@
 		AC1862EA1E1CA2D4005D2F00 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				AC46060B1E1E4A06005F663E /* UIBarButtonItem+Extension.h */,
+				AC46060C1E1E4A06005F663E /* UIBarButtonItem+Extension.m */,
+				AC46060E1E1E4A84005F663E /* UIView+Extension.h */,
+				AC46060F1E1E4A84005F663E /* UIView+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -562,9 +577,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC1862B11E1C990E005D2F00 /* ViewController.m in Sources */,
+				AC46060D1E1E4A06005F663E /* UIBarButtonItem+Extension.m in Sources */,
 				AC1862AB1E1C990E005D2F00 /* main.m in Sources */,
+				AC4606091E1E4952005F663E /* HMNavigationController.m in Sources */,
 				AC1862E61E1CA13D005D2F00 /* HMThirdPartService.m in Sources */,
 				AC1862E01E1C9EEC005D2F00 /* AppDelegate.m in Sources */,
+				AC4606101E1E4A84005F663E /* UIView+Extension.m in Sources */,
 				AC1862E31E1C9F1C005D2F00 /* HMStartApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

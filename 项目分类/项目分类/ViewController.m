@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HMMacros.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *imageView = [[UIImageView alloc]init];
+    imageView.image = HM_IMAGE(@"xx");
+    
+    self.view.backgroundColor = HM_ColorFromRGB(0xff00ff);
+    self.view.backgroundColor = HM_white_color;
 }
 
 

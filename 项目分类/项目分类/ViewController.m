@@ -26,6 +26,7 @@
     self.view.backgroundColor = HM_white_color;
     
 
+    //xixixixi
     //哈哈哈哈
 
     

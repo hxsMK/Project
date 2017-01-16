@@ -26,7 +26,11 @@
     self.view.backgroundColor = HM_white_color;
     
     
+
     //啦啦啦
+
+    //咚咚咚
+
     
     UIView *myView = [[UIView alloc] init];
     myView.frame = CGRectMake(100, 100, 100, 100);

@@ -7,6 +7,8 @@
 //
 
 #import "HMStartApp.h"
+#import "HMMacros.h"
+
 
 @implementation HMStartApp
 
@@ -22,8 +24,9 @@
 }
 
 #pragma mark - 初始化个人数据
-+ (void)hm_initUserData {
-    
++ (void)hm_initUserData
+{
+    NSLog(@"初始化数据");
 }
 
 

@@ -7,6 +7,7 @@
 //
 
 #import "HMThirdPartService.h"
+#import "HMMacros.h"
 
 #import <IQKeyboardManager.h>
 
@@ -42,6 +43,8 @@
     manager.shouldResignOnTouchOutside = YES;
     manager.shouldToolbarUsesTextFieldTintColor = YES;
     manager.enableAutoToolbar = YES;
+    
+    NSLog(@"什么玩意");
 }
 
 #pragma mark － 检测网络相关

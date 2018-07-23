@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
-@end
+//@interface AppDelegate ()
+//
+//@end
 
 @implementation AppDelegate
 
